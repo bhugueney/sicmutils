@@ -4,7 +4,7 @@ LABEL maintainer="Kane Blueriver <kxxoling@gmail.com>"
 ARG NB_USER=clojure
 ARG NB_UID=1000
 ENV HOME /home/${NB_USER}
-ENV NOTEBOOK_PATH $HOME/notebooks
+ENV NOTEBOOK_PATH $HOME/jupyter
 ENV PORT 8888
 ENV CLOJUPYTER_PATH $HOME/clojupyter
 ENV LEIN_ROOT 1
